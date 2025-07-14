@@ -12,8 +12,16 @@ base_url = "https://www.tripadvisor.com.tr"
 start_url = base_url + "/Restaurant_Review-g672951-d20093040-Reviews-Al_Hayaal-Mardin_Mardin_Province.html"
 all_reviews = []
 
+# Buraya kendi çerezlerinizi ekleyin (Application > Cookies kısmından kopyalayın)
+manual_cookies = [
+    {"name": "OptanonConsent", "value": "isGpcEnabled=1&datestamp=Mon+Jul+14+2025+23%3A33%3A45+GMT%2B0300+(GMT%2B03%3A00)&version=202405.2.0&browserGpcFlag=1&isIABGlobal=false&hosts=&consentId=8ab1b3af-d818-493b-bfe3-97c9e1a6882a&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.tripadvisor.com%2FSmartDeals-g55252-Only_Tennessee-Hotel-Deals.html%23SPLITVIEWMAP&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0"},
+    {"name": "datadome", "value": "qRcOfW2al3Y8FY6GiotEQ4BjXAQwAMfhyx41qLEDZfjP4bvI0pzzxfLvpvkokPofoeXCATU5OoOB2KKotgddsq_jhCr49GrLdcPsTT9VT~~HeCptDCmpPltaQVrr8ehd"},
+    {"name": "TASession", "value": "V2ID.B18C25817BDCA31903FD7603B73719DD*SQ.7*LS.Restaurant_Review*HS.recommended*ES.popularity*DS.5*SAS.popularity*FPS.oldFirst*FA.1*DF.0*TRA.true*EAU._"},
+    # ... diğer çerezler ...
+]
+
 options = Options()
-# options.add_argument('--headless')
+# options.add_argument('--headless')  # Headless kapalı, insan gibi davran
 options.add_argument('--disable-gpu')
 options.add_argument('--no-sandbox')
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -22,23 +30,32 @@ driver = webdriver.Chrome(options=options)
 def extract_reviews_from_html(html):
     soup = BeautifulSoup(html, "html.parser")
     reviews = []
-    for review_block in soup.find_all('div', class_='eYtRY'):  # Yorum ana div'i
+    # Önce klasik TripAdvisor reviewCard ile dene
+    review_blocks = soup.find_all('div', attrs={'data-automation': 'reviewCard'})
+    # Eğer hiç bulamazsa, fallback olarak h1>span içeren div'leri dene
+    if not review_blocks:
+        for div in soup.find_all('div'):
+            h1_tag = div.find('h1')
+            if h1_tag and h1_tag.find('span'):
+                review_blocks.append(div)
+    for review_block in review_blocks:
         try:
             restaurant_name = "Al Hayaal"
             # Kullanıcı adı
             user_name = ""
-            user_name_tag = review_block.find('span', class_='OUDwj b u')
-            if user_name_tag:
-                user_name = user_name_tag.text.strip()
+            h1_tag = review_block.find('h1')
+            if h1_tag and h1_tag.find('span'):
+                user_name = h1_tag.find('span').text.strip()
             else:
-                h1_tag = review_block.find('h1')
-                if h1_tag and h1_tag.find('span'):
-                    user_name = h1_tag.find('span').text.strip()
+                # Alternatif olarak eski yapı
+                user_tag = review_block.find('a', href=True)
+                if user_tag and user_tag.text.strip():
+                    user_name = user_tag.text.strip()
             # Kullanıcı profil linki
             user_profile_link = ""
-            user_tag = review_block.find('a', href=True)
-            if user_tag:
-                user_profile_link = base_url + user_tag['href']
+            profile_a = review_block.find('a', href=True)
+            if profile_a and "/Profile/" in profile_a['href']:
+                user_profile_link = base_url + profile_a['href']
             # Puan (rating)
             rating = None
             rating_svg = review_block.find('svg', attrs={'data-automation': 'bubbleRatingImage'})
@@ -87,13 +104,19 @@ def go_to_next_page():
         return False
 
 if __name__ == "__main__":
+    # Önce ana sayfaya git ve çerezleri ekle
+    driver.get("https://www.tripadvisor.com.tr")
+    for cookie in manual_cookies:
+        driver.add_cookie(cookie)
+    # Sonra asıl sayfaya git
     driver.get(start_url)
     wait = WebDriverWait(driver, 15)
     page_num = 1
     visited_urls = set()
     while True:
         try:
-            wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[data-automation=\"reviewCard\"]')))
+            wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[data-automation="reviewCard"]')))
+            time.sleep(2)  # Ekstra bekleme, yorumlar tam gelsin
         except Exception as e:
             print(f"Yorumlar yüklenmedi veya bulunamadı: {e}")
         print(f"Sayfa {page_num} işleniyor: {driver.current_url}")
