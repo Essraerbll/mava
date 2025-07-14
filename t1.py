@@ -4,12 +4,15 @@ import json
 import time
 import os
 
-API_KEY = "API_KEY_BURAYA_GELECEK"  # Buraya kendi API anahtarınızı girin
+API_KEY = "118f266ebe143b16fef84d16a716b026"  # kendi key’in
 
 def get_html(url):
-    encoded_url = requests.utils.quote(url, safe='')
-    full_url = f"https://api.webscrapingapi.com/v2?api_key={API_KEY}&url={encoded_url}&render_js=true"
-    response = requests.get(full_url)
+    params = {
+        'api_key': API_KEY,
+        'url': url,
+        'render': 'true'  # JavaScript içeriği render'lamak için
+    }
+    response = requests.get("http://api.scraperapi.com", params=params)
     return response.text
 
 def load_restaurant_links(json_folder):
@@ -29,46 +32,61 @@ def load_restaurant_links(json_folder):
     return restaurant_links
 
 if __name__ == "__main__":
-    json_folder = "Restaurants-g672951-Mardin_Mardin_Province"
-    all_restaurants = load_restaurant_links(json_folder)
+    restaurant_url = "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d20093040-Reviews-Al_Hayaal-Mardin_Mardin_Province.html"
     all_reviews = []
-    for idx, restaurant in enumerate(all_restaurants, 1):
-        print(f"[{idx}/{len(all_restaurants)}] {restaurant['name']} işleniyor...")
-        try:
-            html = get_html(restaurant['link'])
-            soup = BeautifulSoup(html, "html.parser")
-            # Yorumları bulmak için temel bir örnek (TripAdvisor'ın HTML yapısı değişebilir, selector'ları güncellemek gerekebilir)
-            for review_block in soup.find_all('div', class_='reviewSelector'):
-                try:
-                    restaurant_name = restaurant['name']
-                    user = review_block.find('div', class_='info_text')
-                    user_name = user.text.strip() if user else ""
-                    user_profile_link = user.find('a')['href'] if user and user.find('a') else ""
-                    rating_tag = review_block.find('span', class_='ui_bubble_rating')
-                    rating = int(rating_tag['class'][1].split('_')[-1]) / 10 if rating_tag else None
-                    review_title = review_block.find('span', class_='noQuotes').text.strip() if review_block.find('span', class_='noQuotes') else ""
-                    review_text = review_block.find('p', class_='partial_entry').text.strip() if review_block.find('p', class_='partial_entry') else ""
-                    # Diğer alanlar için ek kodlar eklenebilir
-                    all_reviews.append({
-                        "restaurant_name": restaurant_name,
-                        "user_name": user_name,
-                        "user_profile_link": user_profile_link,
-                        "rating": rating,
-                        "visit_date": "",
-                        "travel_type": "",
-                        "review_title": review_title,
-                        "review_text": review_text,
-                        "value_rating": 0,
-                        "service_rating": 0,
-                        "food_rating": 0,
-                        "atmosphere_rating": 0,
-                        "helpful_vote_count": 0
-                    })
-                except Exception as e:
-                    print(f"Yorum işlenirken hata: {e}")
-            time.sleep(2)  # API'yı yormamak için bekleme
-        except Exception as e:
-            print(f"Restoran işlenirken hata: {e}")
+    print(f"{restaurant_url} işleniyor...")
+    try:
+        html = get_html(restaurant_url)
+        with open("debug_al_hayaal.html", "w", encoding="utf-8") as f:
+            f.write(html)
+        soup = BeautifulSoup(html, "html.parser")
+        for review_block in soup.find_all('div', attrs={'data-automation': 'reviewCard'}):
+            try:
+                restaurant_name = "Al Hayaal"
+                # Kullanıcı adı ve profil linki
+                user_tag = review_block.find('a', href=True)
+                user_name = user_tag.text.strip() if user_tag else ""
+                user_profile_link = "https://www.tripadvisor.com.tr" + user_tag['href'] if user_tag else ""
+                # Puan (rating)
+                rating = None
+                rating_svg = review_block.find('svg', attrs={'data-automation': 'bubbleRatingImage'})
+                if rating_svg and rating_svg.find('title'):
+                    title_text = rating_svg.find('title').text
+                    # "5 üzerinden 5 baloncuk üzerinden" gibi bir metin, ilk rakamı al
+                    rating = int(title_text.strip()[0])
+                # Yorum başlığı
+                review_title_tag = review_block.find('div', attrs={'data-test-target': 'review-title'})
+                review_title = review_title_tag.text.strip() if review_title_tag else ""
+                # Yorum metni
+                review_body_tag = review_block.find('div', attrs={'data-test-target': 'review-body'})
+                review_text = review_body_tag.text.strip() if review_body_tag else ""
+                # Ziyaret tarihi
+                visit_date = ""
+                date_div = review_block.find('div', class_='fUmAk')
+                if date_div:
+                    date_lines = date_div.text.split("\\n")
+                    for line in date_lines:
+                        if "Yazıldığı tarih:" in line:
+                            visit_date = line.replace("Yazıldığı tarih:", "").strip()
+                # Seyahat tipi
+                travel_type = ""
+                travel_type_span = review_block.find('span', class_='mcweh')
+                if travel_type_span:
+                    travel_type = travel_type_span.text.strip()
+                all_reviews.append({
+                    "restaurant_name": restaurant_name,
+                    "user_name": user_name,
+                    "user_profile_link": user_profile_link,
+                    "rating": rating,
+                    "visit_date": visit_date,
+                    "travel_type": travel_type,
+                    "review_title": review_title,
+                    "review_text": review_text
+                })
+            except Exception as e:
+                print(f"Yorum işlenirken hata: {e}")
+    except Exception as e:
+        print(f"Restoran işlenirken hata: {e}")
     with open("all_reviews.json", "w", encoding="utf-8") as f:
         json.dump(all_reviews, f, ensure_ascii=False, indent=2)
     print(f"Toplam {len(all_reviews)} yorum kaydedildi.")
