@@ -13,7 +13,7 @@ start_url = base_url + "/Restaurant_Review-g672951-d20093040-Reviews-Al_Hayaal-M
 all_reviews = []
 
 options = Options()
-options.add_argument('--headless')
+# options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 options.add_argument('--no-sandbox')
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -22,13 +22,23 @@ driver = webdriver.Chrome(options=options)
 def extract_reviews_from_html(html):
     soup = BeautifulSoup(html, "html.parser")
     reviews = []
-    for review_block in soup.find_all('div', attrs={'data-automation': 'reviewCard'}):
+    for review_block in soup.find_all('div', class_='eYtRY'):  # Yorum ana div'i
         try:
             restaurant_name = "Al Hayaal"
-            # Kullanıcı adı ve profil linki
+            # Kullanıcı adı
+            user_name = ""
+            user_name_tag = review_block.find('span', class_='OUDwj b u')
+            if user_name_tag:
+                user_name = user_name_tag.text.strip()
+            else:
+                h1_tag = review_block.find('h1')
+                if h1_tag and h1_tag.find('span'):
+                    user_name = h1_tag.find('span').text.strip()
+            # Kullanıcı profil linki
+            user_profile_link = ""
             user_tag = review_block.find('a', href=True)
-            user_name = user_tag.text.strip() if user_tag else ""
-            user_profile_link = base_url + user_tag['href'] if user_tag else ""
+            if user_tag:
+                user_profile_link = base_url + user_tag['href']
             # Puan (rating)
             rating = None
             rating_svg = review_block.find('svg', attrs={'data-automation': 'bubbleRatingImage'})
