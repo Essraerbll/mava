@@ -87,6 +87,7 @@ if __name__ == "__main__":
                 print(f"Yorum işlenirken hata: {e}")
     except Exception as e:
         print(f"Restoran işlenirken hata: {e}")
-    with open("all_reviews.json", "w", encoding="utf-8") as f:
+    filename = f"{restaurant_name.replace(' ', '_').lower()}_reviews.json"
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(all_reviews, f, ensure_ascii=False, indent=2)
     print(f"Toplam {len(all_reviews)} yorum kaydedildi.")
