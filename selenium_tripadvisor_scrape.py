@@ -136,8 +136,8 @@ def extract_reviews_from_html(html):
 
 def extract_reviews_from_selenium(driver):
     reviews = []
-    # Alternatif selector'lar ile dene
-    review_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-automation="reviewCard"], div[data-reviewid], div.YibKl.MC.R2.Gi.z.Z.BB.pBbQr')
+    # Sadece gerçek yorum kartlarını seç
+    review_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-automation="reviewCard"]')
     print(f"Bulunan yorum kartı sayısı: {len(review_elements)}")
     for elem in review_elements:
         try:
@@ -169,8 +169,14 @@ def extract_reviews_from_selenium(driver):
                 except:
                     pass
             user_profile_link = ""
+            # TripAdvisor profil linki için tüm <a> etiketlerini kontrol et
             try:
-                user_profile_link = elem.find_element(By.CSS_SELECTOR, 'a[data-automation="userName"]').get_attribute("href")
+                links = elem.find_elements(By.TAG_NAME, "a")
+                for link in links:
+                    href = link.get_attribute("href")
+                    if href and "/Profile/" in href:
+                        user_profile_link = href
+                        break
             except:
                 pass
             rating = None
@@ -234,6 +240,7 @@ if __name__ == "__main__":
             print(f"Çerez eklenemedi: {cookie['name']} - {e}")
     # Sonra asıl sayfaya git
     driver.get(start_url)
+    time.sleep(5)
     wait = WebDriverWait(driver, 15)
     page_num = 1
     visited_urls = set()
@@ -255,12 +262,13 @@ if __name__ == "__main__":
         visited_urls.add(driver.current_url)
         if not go_to_next_page():
             break
-        time.sleep(3)
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
         page_num += 1
         if driver.current_url in visited_urls:
             print("Tekrar eden sayfa tespit edildi, döngü kırılıyor.")
             break
-    driver.quit()
-    with open("Al-Hayaal-Restaurant_reviews.json", "w", encoding="utf-8") as f:
-        json.dump(all_reviews, f, ensure_ascii=False, indent=2)
-    print(f"Toplam {len(all_reviews)} yorum kaydedildi.")
+driver.quit()
+with open("Al-Hayaal-Restaurant_reviews.json", "w", encoding="utf-8") as f:
+    json.dump(all_reviews, f, ensure_ascii=False, indent=2)
+print(f"Toplam {len(all_reviews)} yorum kaydedildi.")
