@@ -1,0 +1,22 @@
+[
+  {
+    "restaurant_name": "Mado Cafe",
+    "user_name": "halilcank2019",
+    "user_profile_link": "https://www.tripadvisor.com.tr/Profile/halilcank2019",
+    "rating": 5,
+    "visit_date": "4 Eylül 2019\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
+    "travel_type": "friends",
+    "review_title": "Rezillik",
+    "review_text": "Pastanede ekler yok profiterol var dediler berbat tadsız donuk çikolatadan ibaret bişey geldi bidaha asla"
+  },
+  {
+    "restaurant_name": "Mado Cafe",
+    "user_name": "halilcagil",
+    "user_profile_link": "https://www.tripadvisor.com.tr/Profile/halilcagil",
+    "rating": 5,
+    "visit_date": "27 Temmuz 2019\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
+    "travel_type": "couples",
+    "review_title": "Rezalet",
+    "review_text": "MADO mu yoksa sıradan bir sokak kafe mi belli değil ama abartmamalıyım sokak kafe daha iyidir sanırım. Hayatımda yediğim en rezil menemendi sunum da ayrıca sıfır al ye diye önümüze koydular. Hem para ver hem saplasınlar"
+  }
+]

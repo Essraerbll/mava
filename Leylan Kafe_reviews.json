@@ -1,0 +1,22 @@
+[
+  {
+    "restaurant_name": "Leylan Kafe",
+    "user_name": "hebata2018",
+    "user_profile_link": "https://www.tripadvisor.com.tr/Profile/hebata2018",
+    "rating": 5,
+    "visit_date": "30 Nisan 2025\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
+    "travel_type": "friends",
+    "review_title": "Harika Mekan",
+    "review_text": "Güler yüzlü personeller hızlı servis harika manzara karşısında biranızı yudumlayacağınız tek mekan her şey için teşekkür ederiz"
+  },
+  {
+    "restaurant_name": "Leylan Kafe",
+    "user_name": "halukncr",
+    "user_profile_link": "https://www.tripadvisor.com.tr/Profile/halukncr",
+    "rating": 5,
+    "visit_date": "8 Ocak 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
+    "travel_type": "none",
+    "review_title": "başarılı",
+    "review_text": "ortamda çok öğrençi var zaten cafe ona hitap ediyor hepsi güler yüzlü bira ve şarap hizmeti gayet iyi"
+  }
+]
