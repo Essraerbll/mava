@@ -1,3 +1,4 @@
+#yazılımın çalışması için türkçe karakterleri kaldırdık
 import json
 import re
 from pathlib import Path
