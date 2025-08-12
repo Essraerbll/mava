@@ -1,3 +1,4 @@
+#tüm restaurantları tek bir json dosyasında topladık
 import json
 from pathlib import Path
 
