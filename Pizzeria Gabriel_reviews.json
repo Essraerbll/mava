@@ -1,11 +1,12 @@
 [
   {
     "restaurant_name": "Pizzeria Gabriel",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d33083366-Reviews-Pizzeria_Gabriel-Mardin_Mardin_Province.html",
     "user_name": "zel_lz2025",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/zel_lz2025",
     "rating": 5,
     "visit_date": "5 Ağustos 2025\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "Muazzam",
     "review_text": "Pizzalarımızın Lezzeti ve ambiyansın güzelliği bir yana mekandaki çalışan ekibimin, özellikle Aşitican’ın güleryüzlü ve samimi tavrı için bile gidilir tekrar tekrar .\nDevamını okuyun"
   }

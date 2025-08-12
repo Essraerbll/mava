@@ -1,12 +1,13 @@
 [
   {
     "restaurant_name": "Nucan Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d21502237-Reviews-Nucan_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "keegan_9",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/keegan_9",
     "rating": 5,
     "visit_date": "28 Mayıs 2021\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
-    "review_title": "Great food",
+    "travel_type": "arkadaşlar",
+    "review_title": "Harika food",
     "review_text": "I am difficult with food but this was excellent. Just a salad and soup but my friends has chicken and they all agreed. Great fare and a good price. Great service."
   }
 ]

@@ -1,61 +1,67 @@
 [
   {
     "restaurant_name": "Emirgan Kafe",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d4562347-Reviews-Emirgan_Kafe-Mardin_Mardin_Province.html",
     "user_name": "998kezbank",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/998kezbank",
     "rating": 5,
     "visit_date": "22 Haziran 2017\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "Açık büfe iftar",
     "review_text": "Açık büfe denildi ama yemekler azdi ve bir anda yemek bitti ayrıca yemeklerin lezzeti yoktu oyun yeri çok kötü para yutuyor makineleri emirgan gibi bir yere yakışmadı."
   },
   {
     "restaurant_name": "Emirgan Kafe",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d4562347-Reviews-Emirgan_Kafe-Mardin_Mardin_Province.html",
     "user_name": "113tct",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/113tct",
     "rating": 5,
     "visit_date": "30 Temmuz 2016\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Açık büfe kahvaltı",
     "review_text": "Çok çok ahım şahım bir yer olmasana bowling jetonlu çocuk oyuncakları ile içi içe bir yer her gün saat 12:00 A kadar açık büfe kahvaltısı mevcut tek çeken tarafı o ...."
   },
   {
     "restaurant_name": "Emirgan Kafe",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d4562347-Reviews-Emirgan_Kafe-Mardin_Mardin_Province.html",
     "user_name": "23serdarp",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/23serdarp",
     "rating": 5,
     "visit_date": "20 Şubat 2016\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "couples",
+    "travel_type": "çiftler",
     "review_title": "Kötü kahvaltı",
     "review_text": "Kahvaltılıklar soğuktu. Ortamı çok hijyenikdeğil. Domateslerde hala çamur vardı. Artı oyun salonundan gelen sesten çok rahatsız oluyorsunuz. Fiyat ise iki 30 civarı. Çalışanlar ise donuk ve güleryüzlü değil. Bir daha asla gitmem."
   },
   {
     "restaurant_name": "Emirgan Kafe",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d4562347-Reviews-Emirgan_Kafe-Mardin_Mardin_Province.html",
     "user_name": "515mehmetg",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/515mehmetg",
     "rating": 5,
     "visit_date": "31 Mart 2015\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "solo",
+    "travel_type": "tek başına",
     "review_title": "uygun fiyat",
     "review_text": "bütçenden kısıcaksan kahvaltısı idare eder 3 kuruş verip 5 kuruşluk hizmet beklememek lazım esnafa değilde birazdaha çalışan kesime hitap ediyor kahvaltısından zevk aldım :)"
   },
   {
     "restaurant_name": "Emirgan Kafe",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d4562347-Reviews-Emirgan_Kafe-Mardin_Mardin_Province.html",
     "user_name": "ferhataa",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/ferhataa",
     "rating": 5,
     "visit_date": "18 Haziran 2014\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "işletmecilik sıfır",
     "review_text": "hijyen açısında kötü, çocuk oyun salonunun gürültüsünden kafanız şişiyor. her gün değişik personel, müşteri memnuniyeti nedir haberleri yok. aynen devam edin arkadaşlar\nDevamını okuyun"
   },
   {
     "restaurant_name": "Emirgan Kafe",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d4562347-Reviews-Emirgan_Kafe-Mardin_Mardin_Province.html",
     "user_name": "kule1",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/kule1",
     "rating": 5,
     "visit_date": "28 Mayıs 2014\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "marketin yanında ,gereksiz bir yer",
     "review_text": "Yemek çeşitliliği az,konum olarak rahatlatıcı bir ortamı yok.İçerisinde oyun alanı mevcut.Fiyat kalitesi normal"
   }

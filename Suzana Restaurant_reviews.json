@@ -1,31 +1,34 @@
 [
   {
     "restaurant_name": "Suzana Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d20006111-Reviews-Suzana_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "OnAir63852342601",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/OnAir63852342601",
     "rating": 5,
     "visit_date": "28 Haziran 2024\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "solo",
+    "travel_type": "tek başına",
     "review_title": "Kazıklama",
     "review_text": "Ben hayatımda bu kadar kötü bir köfte hiç yemedim. Resmen kazıklama. Hazır patates köfteye 475 tl para aldı şaka gibi hala inanamıyorum. Mardin de o kadar yerde yemek yedim daha hiç bir yemeğe bu kadar para vermedim. Sakın gitmeyin sakııın"
   },
   {
     "restaurant_name": "Suzana Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d20006111-Reviews-Suzana_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "seyahetsever47",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/seyahetsever47",
     "rating": 5,
     "visit_date": "21 Şubat 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Cafe Restorant",
     "review_text": "Yedıgım en lezzetli yoresel yemeklerdi.ilgi alaka samimiyet temizlik titizlik hersey cok guzeldi.mardin de otantik mekanlara oranla ucuz ve kaliteli tek yer diyebilirim."
   },
   {
     "restaurant_name": "Suzana Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d20006111-Reviews-Suzana_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "Siboke",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/Siboke",
     "rating": 5,
     "visit_date": "14 Şubat 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Kahvaltı,mahalli yemekler",
     "review_text": "Muhteşem tarihi konağında birbirinden enfes tatlar ,işletme sahibi çok tatlı bi bayan ,bütün yemeklerini kendisi özenle yapıyor ."
   }

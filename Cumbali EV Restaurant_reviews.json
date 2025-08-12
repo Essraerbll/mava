@@ -1,41 +1,45 @@
 [
   {
     "restaurant_name": "Cumbali EV Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d19975622-Reviews-Cumbali_EV_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "867musam",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/867musam",
     "rating": 5,
     "visit_date": "24 Aralık 2024\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "Güler yüz",
     "review_text": "Menü güzeldi bir eksiklik yoktu hersey. İstediğimiz gibiydi tastamamdi\nBirtek çalışan arkadaşlar Güler yüzlü değiller di"
   },
   {
     "restaurant_name": "Cumbali EV Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d19975622-Reviews-Cumbali_EV_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "zeynephilalk2023",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/zeynephilalk2023",
     "rating": 5,
     "visit_date": "15 Kasım 2023\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Kahvaltı",
     "review_text": "Serpme kahvaltısı çok dolu ve lezzetliydi sıcak ürünleri hemen servis yaptılar, çay servisi bardaklar bittikçe hemen tazelendi servis hızlıydı tavsiye ederiz, kahvaltı kişi başı 240₺"
   },
   {
     "restaurant_name": "Cumbali EV Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d19975622-Reviews-Cumbali_EV_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "12erhand",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/12erhand",
     "rating": 5,
     "visit_date": "16 Temmuz 2023\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Mükemmel",
     "review_text": "Mükemmel ülkemizin kahvaltı kültürünü en iyi yansıtan Cafe Restaurant çok teşekkür ediyorum Mardin cumbalı ev\nDevamını okuyun"
   },
   {
     "restaurant_name": "Cumbali EV Restaurant",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d19975622-Reviews-Cumbali_EV_Restaurant-Mardin_Mardin_Province.html",
     "user_name": "ylmzesra",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/ylmzesra",
     "rating": 5,
     "visit_date": "4 Kasım 2022\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Lezzetli Kahvaltı Durağı",
     "review_text": "Mardinde tek geçebileceğim kahvaltı mekanı diyebilirim , ev yapımı patates kızartmaları , zahteri yöresel peynir ve yoğurtları tam bir lezzet durağı diyebiliriz , muhakkak uğramanızı tavsiye ederim 🤗"
   }

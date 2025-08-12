@@ -1,11 +1,12 @@
 [
   {
     "restaurant_name": "Elegance Restoran",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d25076696-Reviews-Elegance_Restoran-Mardin_Mardin_Province.html",
     "user_name": "673cabbarb",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/673cabbarb",
     "rating": 5,
     "visit_date": "18 Ekim 2024\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "Berbat Bir Yer",
     "review_text": "Yer yüzünün en berbat saç tavasını yedim. Saç tava diye saç tava olmayan bir şey getirdiler. Ekmek yerine BİM’de satılan lavaş ekmekten verdiler. Bir daha üstüne para verseler gitmem"
   }

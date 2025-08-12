@@ -1,11 +1,12 @@
 [
   {
     "restaurant_name": "Tülay lokantası",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d25423210-Reviews-Tulay_lokantasI-Mardin_Mardin_Province.html",
     "user_name": "ahualtinel",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/ahualtinel",
     "rating": 5,
     "visit_date": "5 Nisan 2023\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Leziz esnaf lokantası",
     "review_text": "Muazzam lezzetli yemekler karşılığında çok uygun fiyat,küçük bir esnaf lokantası. açıkcası eski Mardin de tüm restoranlar çok pahalı ve her zaman da lezzetli değil ama burası çok samimi ve lezzetli yemekleri var. Sadece nakit ödeme yapılabiliyor olması dezavantaj ama fiyatlar o kadar uygun ki sorun olmayacaktır.\nDevamını okuyun"
   }

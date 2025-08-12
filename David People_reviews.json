@@ -1,21 +1,23 @@
 [
   {
     "restaurant_name": "David People",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d21142127-Reviews-David_People-Mardin_Mardin_Province.html",
     "user_name": "olaa483",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/olaa483",
     "rating": 5,
     "visit_date": "28 Ekim 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "none",
+    "travel_type": "belirtilmemiş",
     "review_title": "Italian style coffee and desserts",
     "review_text": "I was craving an Americano in Turkey and finally found it at this lovely cafe. \nthey serve everything - all types of dishes, desserts, drinks and alcohol. \nI only tried the coffee, which was good, not sure about the rest.\nDevamını okuyun"
   },
   {
     "restaurant_name": "David People",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d21142127-Reviews-David_People-Mardin_Mardin_Province.html",
     "user_name": "Barnabas68",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/Barnabas68",
     "rating": 5,
     "visit_date": "18 Temmuz 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "none",
+    "travel_type": "belirtilmemiş",
     "review_title": "Friendly service. Rahat.",
     "review_text": "Asked for a coffee. Was offered a list of beers. Had a beer. Good wifi and music. Limited menu but very relaxing. Rahat. Comfortable. Frequent buses outside.\nDevamını okuyun"
   }

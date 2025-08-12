@@ -1,41 +1,45 @@
 [
   {
     "restaurant_name": "Retro Cafe & Steak Burger",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d17748096-Reviews-Retro_Cafe_Steak_Burger-Mardin_Mardin_Province.html",
     "user_name": "elfoooo",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/elfoooo",
     "rating": 5,
     "visit_date": "14 Kasım 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "none",
+    "travel_type": "belirtilmemiş",
     "review_title": "Mardin’de güzel ve hızlı bir",
     "review_text": "Mardin’de güzel ve hızlı bir şeyler yemek için uygundu . Garson alakası ve sunum güzel. Lezzet tatmin edici ."
   },
   {
     "restaurant_name": "Retro Cafe & Steak Burger",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d17748096-Reviews-Retro_Cafe_Steak_Burger-Mardin_Mardin_Province.html",
     "user_name": "Seyyahogluemre",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/Seyyahogluemre",
     "rating": 5,
     "visit_date": "13 Kasım 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "family",
+    "travel_type": "aile",
     "review_title": "Aile yemeği",
     "review_text": "Eşim ve oğlumla gittik çalışan kalitesi düşük ilgisizler. Hamburger aşırı yağlı geldi. Lakin malesef mardinde hamburger için tek kötünün iyisi yer..."
   },
   {
     "restaurant_name": "Retro Cafe & Steak Burger",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d17748096-Reviews-Retro_Cafe_Steak_Burger-Mardin_Mardin_Province.html",
     "user_name": "stevethec",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/stevethec",
     "rating": 5,
     "visit_date": "13 Ocak 2020\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "friends",
+    "travel_type": "arkadaşlar",
     "review_title": "Mardin'de tek iyi burgerci",
     "review_text": "Her iki şubede çok güzel burger çeşitleri var. Menemen ve gözleme de var isteyenler için. Ben her gittiğimde memnun kalıyorum. Mardin'de zaten başka bir yerde burger bulamazsın (Burger King sayılmaz tabii)."
   },
   {
     "restaurant_name": "Retro Cafe & Steak Burger",
+    "restaurant_link": "https://www.tripadvisor.com.tr/Restaurant_Review-g672951-d17748096-Reviews-Retro_Cafe_Steak_Burger-Mardin_Mardin_Province.html",
     "user_name": "tarikthetarikkoww",
     "user_profile_link": "https://www.tripadvisor.com.tr/Profile/tarikthetarikkoww",
     "rating": 5,
     "visit_date": "31 Aralık 2019\nBu yorum, bir Tripadvisor üyesinin öznel görüşü olup Tripadvisor LLC şirketine ait değildir. Tripadvisor, yorumlar üzerinde kontroller yapmaktadır.",
-    "travel_type": "couples",
+    "travel_type": "çiftler",
     "review_title": "İğrenç ötesi",
     "review_text": "Yılbaşında eğlenmek için evden çıktık ve maalesef ilk durağımız burası oldu. Acıkmıştık ama hızlı bir şeyler yiyip yılbaşı eğlencesi düzenleyen bir yere gidecektik fakat kötü bir başlangıç oldu. Patetesler kuru ve yanıktı. Burger ekmeği bayattı. Mekan buz gibiydi küçük bir ısıtıcı vardı sadece. Yemek ve patatesten şikayet etmemize rağmen herhangi bir özür dilenmedi birşey olmamış gibi pişkin pişkin işine devam etti. Kısacası berbat servis, iğrenç yemek ve saçma sapan hesap. Biraz profesyonel olsanız keşke. Aldığınız paranın hakkını verin ve insanlara biraz ilgi gösterin. Bedava yemek vermiyorsunuz...\nDevamını okuyun"
   }
