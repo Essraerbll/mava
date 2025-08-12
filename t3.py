@@ -1,3 +1,6 @@
+#selenium ile yapılan çalışma
+# sadece tek bir restaurantın bilgilerini çekmeye ayarlanmıştı 
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
