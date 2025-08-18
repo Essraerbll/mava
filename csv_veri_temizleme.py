@@ -1,16 +1,15 @@
-import pandas as pd
+import re
 
-# Dosyayı oku
-df = pd.read_csv('mardin.csv')
+def temizle_visit_date(text):
+    # "visit_date": "18 Haziran 2025\nBu y..." kısmını "visit_date": "18 Haziran 2025" olarak bırakır
+    pattern = r'("visit_date":\s*")([^"\n]+)\\nBu y.*?"'
+    return re.sub(pattern, r'\1\2"', text)
 
-# visit_date sütununda slashtan sonrasını sil
-df['visit_date'] = df['visit_date'].str.split('/').str[0]
+# Doğru dosya adını kullan!
+with open('TÜM_MARDİN_RESTAURANTLARI.JSON', 'r', encoding='utf-8') as f:
+    data = f.read()
 
-# review_text sütununda slashtan sonrasını sil
-df['review_text'] = df['review_text'].str.split('/').str[0]
+temizlenmis_data = temizle_visit_date(data)
 
-# Eğer "devamını oku" gibi ifadeleri de silmek istiyorsan:
-df['review_text'] = df['review_text'].str.replace('devamını oku', '', case=False)
-
-# Temizlenmiş veriyi yeni bir dosyaya kaydet
-df.to_csv('mardin_temiz.csv', index=False)
+with open('TÜM_MARDİN_RESTAURANTLARI_temiz.JSON', 'w', encoding='utf-8') as f:
+    f.write(temizlenmis_data)

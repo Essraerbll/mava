@@ -1,20 +1,20 @@
 import json
 import csv
 
-# JSON dosyasını okuyun
-with open('TÜM_MARDİN_RESTAURANTLARI.JSON', 'r', encoding='utf-8') as json_file:
-    data = json.load(json_file)
+# JSON dosyasını oku
+with open('TÜM_MARDİN_RESTAURANTLARI_temiz2.JSON', 'r', encoding='utf-8') as f:
+    data = json.load(f)
 
-# CSV dosyasını oluşturun
-with open('Mardin.csv', 'w', newline='', encoding='utf-8') as csv_file:
-    csv_writer = csv.writer(csv_file)
-
-    # Başlık satırını yazın (JSON'daki anahtarlar)
-    header = data[0].keys()  # İlk öğenin anahtarlarını alıyoruz
-    csv_writer.writerow(header)
-
-    # Verileri yazın
-    for restaurant in data:
-        csv_writer.writerow(restaurant.values())
-
-print("JSON dosyası başarıyla CSV'ye dönüştürüldü!")
+# Eğer data bir liste ise doğrudan yazabiliriz
+with open('Mardin.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    if isinstance(data, list):
+        # Anahtarları başlık olarak al
+        fieldnames = data[0].keys()
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in data:
+            writer.writerow(row)
+    else:
+        # Eğer data bir dict ise, uygun şekilde işleyin
+        # Örneğin: data = data['restaurants']
+        pass
