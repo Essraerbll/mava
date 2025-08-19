@@ -1,4 +1,4 @@
-# 
+# Gerekli kütüphaneleri import et
 import json
 import re
 
