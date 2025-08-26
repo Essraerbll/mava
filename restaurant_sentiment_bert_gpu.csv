@@ -1,0 +1,89 @@
+restaurant_name,negatif,nötr,pozitif,toplam,pozitif_%,negatif_%
+Old Town Cafe Mardin,0,0,3,3,100.0,0.0
+David People,0,0,2,2,100.0,0.0
+Perili Bahçe,0,0,2,2,100.0,0.0
+Derik Et Lokantası,0,0,1,1,100.0,0.0
+Elite Cafe,0,0,1,1,100.0,0.0
+JB Vegan Jack & The Beanstalk Cafe,0,0,1,1,100.0,0.0
+Leylan Cafe,0,0,1,1,100.0,0.0
+Nucan Restaurant,0,0,1,1,100.0,0.0
+Pizzeria Gabriel,0,0,1,1,100.0,0.0
+Tas Evi Cafe,0,0,1,1,100.0,0.0
+şeyhanlı,0,0,1,1,100.0,0.0
+Revan Kafe Restoran,3,0,14,17,82.4,17.6
+Huqqamar Cafe Restaurant,1,0,4,5,80.0,20.0
+Siras Winehouse,2,1,10,13,76.9,15.4
+Durak Pide Lahmacun,4,1,15,20,75.0,20.0
+Dallino's Pizzeria,1,0,3,4,75.0,25.0
+Eyvan Mahalli Yemekler Salonu,1,0,3,4,75.0,25.0
+Dafne Restaurant,2,0,5,7,71.4,28.6
+Sofya Restaurant,2,1,7,10,70.0,20.0
+Hamdani Restaruant,6,0,13,19,68.4,31.6
+Izla Art Cafe,2,1,6,9,66.7,22.2
+Markulo Fasıl,1,0,2,3,66.7,33.3
+Onurhan,0,1,2,3,66.7,0.0
+Turabdin Pizzeria Mardin Pizza Köyü,1,0,2,3,66.7,33.3
+Asude I Merdin Cafe,44,10,95,149,63.8,29.5
+Al Hayaal,59,10,116,185,62.7,31.9
+Leyli Muse Mutfak,51,7,88,146,60.3,34.9
+Haci Gazi Kebap,2,0,3,5,60.0,40.0
+Isot Lahmacun,2,0,3,5,60.0,40.0
+Ildo cafe patisserie,10,7,25,42,59.5,23.8
+Han Mutfak Sanatlari Restaurant,25,2,33,60,55.0,41.7
+Seyr-i Merdin,321,93,465,879,52.9,36.5
+Lolee Restaurant & Patisserie,17,2,20,39,51.3,43.6
+Chef Dimr Et,4,0,4,8,50.0,50.0
+Kasr-i Kaya (Ciğerci Yusuf),3,1,4,8,50.0,37.5
+Retro Cafe & Steak Burger,2,0,2,4,50.0,50.0
+Cafe Günaydin Restaurant,1,0,1,2,50.0,50.0
+Leylan Kafe,1,0,1,2,50.0,50.0
+Doboo Restaurant,92,7,92,191,48.2,48.2
+Erdoba Evleri,8,4,11,23,47.8,34.8
+Bagdadi,165,26,171,362,47.2,45.6
+Kaburgacı Dayım,86,3,78,167,46.7,51.5
+Sinek Cafe,7,1,7,15,46.7,46.7
+Sadik Kunefe,60,19,68,147,46.3,40.8
+Beyti Ocakbaşı,7,0,6,13,46.2,53.8
+Çağ Urfa Sofrası,9,0,7,16,43.8,56.2
+Adana Dostlar kebapcısı,17,3,15,35,42.9,48.6
+Şahin Tepesi Restaurant,18,3,15,36,41.7,50.0
+Beyzade Konağı Restoran Kafe,6,0,4,10,40.0,60.0
+Marmatbah,3,3,4,10,40.0,30.0
+Shmayaa Restoran,4,2,4,10,40.0,40.0
+Pizza Grasso,2,1,2,5,40.0,40.0
+Cercis Murat Konağı,337,39,247,623,39.6,54.1
+Dedecan Ocakbaşı Mardin,16,3,12,31,38.7,51.6
+Taus,5,0,3,8,37.5,62.5
+Çağdaş Et Lokantası,4,1,3,8,37.5,50.0
+Merdo cafe & bistro,7,0,4,11,36.4,63.6
+Yasemin Pide VE Lahmacun,20,3,13,36,36.1,55.6
+Kebapçı Yusuf Usta,67,20,46,133,34.6,50.4
+Reyhani Kasri Hotel Restaurant,5,1,3,9,33.3,55.6
+Suzana Restaurant,2,0,1,3,33.3,66.7
+Delmar Restaurant,29,1,14,44,31.8,65.9
+Sultan Sofrasi,48,7,25,80,31.2,60.0
+Ebrar Mahalli Yemekler,39,4,19,62,30.6,62.9
+Mila Cafe,14,0,6,20,30.0,70.0
+Yay Konağı,13,1,6,20,30.0,65.0
+Rıdo Kebap Salonu,102,19,46,167,27.5,61.1
+mardin merlin konagi,13,1,5,19,26.3,68.4
+M. Kesman Kebapçı Rıdo,12,0,4,16,25.0,75.0
+Cumbali EV Restaurant,3,0,1,4,25.0,75.0
+Mardehan Restaurant,3,0,1,4,25.0,75.0
+Antik Sur Restaurant,125,10,44,179,24.6,69.8
+Artuklu Eski Konak Kafe,7,0,2,9,22.2,77.8
+Artuklu Eski Konak Cafe & Kahvaltı Salonu,8,1,2,11,18.2,72.7
+Emirgan Kafe,5,0,1,6,16.7,83.3
+Mualla Tatlı Krallığı,5,0,1,6,16.7,83.3
+Mado Cafe,2,0,0,2,0.0,100.0
+Vaha Restaurant,1,1,0,2,0.0,50.0
+Elegance Restoran,1,0,0,1,0.0,100.0
+Kehribar,1,0,0,1,0.0,100.0
+Keyfi Teras Kahvaltı Salonu,0,1,0,1,0.0,0.0
+Kultur Cafe,1,0,0,1,0.0,100.0
+Lelyo Shop,1,0,0,1,0.0,100.0
+Mare Kokoreç,0,1,0,1,0.0,0.0
+Nazende Restaurant,1,0,0,1,0.0,100.0
+Tas Ocak Pide ve Lahmacun,1,0,0,1,0.0,100.0
+Tülay lokantası,0,1,0,1,0.0,0.0
+Vahap 86 Restaurant,1,0,0,1,0.0,100.0
