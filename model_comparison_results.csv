@@ -1,0 +1,89 @@
+restaurant_name,bert_sentiment,rule_sentiment,turkce_sentiment,bert_pozitif_%,rule_pozitif_%,turkce_pozitif_%
+Onurhan,pozitif,pozitif,pozitif,66.7,100.0,66.7
+Cercis Murat Konağı,negatif,pozitif,negatif,39.6,70.9,32.7
+Han Mutfak Sanatlari Restaurant,pozitif,pozitif,pozitif,55.0,70.0,53.3
+Old Town Cafe Mardin,pozitif,pozitif,pozitif,100.0,66.7,100.0
+Revan Kafe Restoran,pozitif,pozitif,pozitif,82.4,88.2,76.5
+Elite Cafe,pozitif,pozitif,pozitif,100.0,100.0,100.0
+Tas Evi Cafe,pozitif,pozitif,pozitif,100.0,100.0,100.0
+Leyli Muse Mutfak,pozitif,pozitif,pozitif,60.3,82.9,48.6
+Taus,negatif,negatif,negatif,37.5,50.0,37.5
+Dafne Restaurant,pozitif,pozitif,pozitif,71.4,85.7,42.9
+Haci Gazi Kebap,pozitif,pozitif,pozitif,60.0,80.0,60.0
+Kebapçı Yusuf Usta,negatif,pozitif,negatif,34.6,82.0,34.6
+Emirgan Kafe,negatif,negatif,negatif,16.7,16.7,0.0
+Isot Lahmacun,pozitif,pozitif,negatif,60.0,80.0,40.0
+Seyr-i Merdin,pozitif,pozitif,pozitif,52.9,79.4,48.2
+Markulo Fasıl,pozitif,pozitif,pozitif,66.7,66.7,66.7
+Sadik Kunefe,pozitif,pozitif,negatif,46.3,70.7,37.4
+Beyzade Konağı Restoran Kafe,negatif,negatif,negatif,40.0,30.0,40.0
+Retro Cafe & Steak Burger,negatif,negatif,negatif,50.0,50.0,50.0
+Siras Winehouse,pozitif,pozitif,pozitif,76.9,92.3,69.2
+Suzana Restaurant,negatif,pozitif,negatif,33.3,66.7,0.0
+Mila Cafe,negatif,pozitif,negatif,30.0,70.0,30.0
+Erdoba Evleri,pozitif,pozitif,pozitif,47.8,95.7,52.2
+Al Hayaal,pozitif,pozitif,pozitif,62.7,83.8,53.5
+Kasr-i Kaya (Ciğerci Yusuf),pozitif,pozitif,negatif,50.0,75.0,37.5
+Dallino's Pizzeria,pozitif,pozitif,pozitif,75.0,100.0,75.0
+mardin merlin konagi,negatif,pozitif,negatif,26.3,52.6,26.3
+Beyti Ocakbaşı,negatif,pozitif,pozitif,46.2,61.5,53.8
+Sofya Restaurant,pozitif,pozitif,pozitif,70.0,50.0,70.0
+Huqqamar Cafe Restaurant,pozitif,pozitif,pozitif,80.0,80.0,80.0
+Reyhani Kasri Hotel Restaurant,negatif,pozitif,pozitif,33.3,77.8,55.6
+Lolee Restaurant & Patisserie,pozitif,pozitif,negatif,51.3,74.4,41.0
+Antik Sur Restaurant,negatif,pozitif,negatif,24.6,48.6,20.7
+Keyfi Teras Kahvaltı Salonu,negatif,pozitif,negatif,0.0,100.0,0.0
+Adana Dostlar kebapcısı,negatif,pozitif,negatif,42.9,68.6,34.3
+Kaburgacı Dayım,negatif,pozitif,negatif,46.7,77.2,43.7
+Rıdo Kebap Salonu,negatif,pozitif,negatif,27.5,69.5,22.8
+Mare Kokoreç,negatif,pozitif,negatif,0.0,100.0,0.0
+Bagdadi,pozitif,pozitif,negatif,47.2,72.7,40.3
+şeyhanlı,pozitif,negatif,pozitif,100.0,0.0,100.0
+David People,pozitif,negatif,pozitif,100.0,50.0,100.0
+Lelyo Shop,negatif,pozitif,negatif,0.0,100.0,0.0
+Mado Cafe,negatif,negatif,negatif,0.0,0.0,0.0
+Nucan Restaurant,pozitif,pozitif,pozitif,100.0,100.0,100.0
+Mualla Tatlı Krallığı,negatif,negatif,negatif,16.7,16.7,16.7
+JB Vegan Jack & The Beanstalk Cafe,pozitif,pozitif,negatif,100.0,100.0,0.0
+Kehribar,negatif,pozitif,negatif,0.0,100.0,0.0
+Tas Ocak Pide ve Lahmacun,negatif,pozitif,negatif,0.0,100.0,0.0
+Turabdin Pizzeria Mardin Pizza Köyü,pozitif,pozitif,pozitif,66.7,100.0,66.7
+Doboo Restaurant,negatif,pozitif,negatif,48.2,74.3,39.3
+Tülay lokantası,negatif,negatif,negatif,0.0,0.0,0.0
+Pizzeria Gabriel,pozitif,pozitif,pozitif,100.0,100.0,100.0
+Nazende Restaurant,negatif,negatif,negatif,0.0,0.0,0.0
+Marmatbah,pozitif,pozitif,pozitif,40.0,70.0,40.0
+Delmar Restaurant,negatif,pozitif,negatif,31.8,47.7,27.3
+Çağdaş Et Lokantası,negatif,pozitif,negatif,37.5,75.0,37.5
+Ebrar Mahalli Yemekler,negatif,pozitif,negatif,30.6,56.5,30.6
+Derik Et Lokantası,pozitif,negatif,pozitif,100.0,0.0,100.0
+Şahin Tepesi Restaurant,negatif,pozitif,negatif,41.7,80.6,38.9
+Asude I Merdin Cafe,pozitif,pozitif,pozitif,63.8,79.2,61.1
+Hamdani Restaruant,pozitif,pozitif,pozitif,68.4,78.9,52.6
+Perili Bahçe,pozitif,pozitif,pozitif,100.0,100.0,100.0
+Chef Dimr Et,negatif,pozitif,negatif,50.0,62.5,50.0
+Pizza Grasso,negatif,pozitif,negatif,40.0,100.0,40.0
+Artuklu Eski Konak Kafe,negatif,pozitif,negatif,22.2,77.8,11.1
+Yasemin Pide VE Lahmacun,negatif,pozitif,negatif,36.1,66.7,30.6
+Cumbali EV Restaurant,negatif,pozitif,negatif,25.0,100.0,25.0
+Leylan Kafe,negatif,pozitif,negatif,50.0,100.0,50.0
+Elegance Restoran,negatif,negatif,negatif,0.0,0.0,0.0
+Leylan Cafe,pozitif,negatif,negatif,100.0,0.0,0.0
+M. Kesman Kebapçı Rıdo,negatif,pozitif,negatif,25.0,62.5,18.8
+Izla Art Cafe,pozitif,pozitif,pozitif,66.7,88.9,55.6
+Merdo cafe & bistro,negatif,pozitif,negatif,36.4,54.5,36.4
+Sultan Sofrasi,negatif,pozitif,negatif,31.2,66.2,23.8
+Shmayaa Restoran,negatif,pozitif,negatif,40.0,60.0,40.0
+Cafe Günaydin Restaurant,negatif,negatif,negatif,50.0,0.0,0.0
+Vaha Restaurant,negatif,pozitif,negatif,0.0,50.0,0.0
+Eyvan Mahalli Yemekler Salonu,pozitif,pozitif,pozitif,75.0,75.0,75.0
+Ildo cafe patisserie,pozitif,pozitif,pozitif,59.5,81.0,50.0
+Yay Konağı,negatif,pozitif,negatif,30.0,65.0,30.0
+Sinek Cafe,negatif,pozitif,negatif,46.7,66.7,33.3
+Dedecan Ocakbaşı Mardin,negatif,pozitif,negatif,38.7,77.4,41.9
+Kultur Cafe,negatif,negatif,negatif,0.0,0.0,0.0
+Durak Pide Lahmacun,pozitif,pozitif,pozitif,75.0,100.0,80.0
+Çağ Urfa Sofrası,negatif,pozitif,negatif,43.8,62.5,43.8
+Vahap 86 Restaurant,negatif,pozitif,negatif,0.0,100.0,0.0
+Mardehan Restaurant,negatif,negatif,negatif,25.0,25.0,0.0
+Artuklu Eski Konak Cafe & Kahvaltı Salonu,negatif,pozitif,negatif,18.2,45.5,18.2
